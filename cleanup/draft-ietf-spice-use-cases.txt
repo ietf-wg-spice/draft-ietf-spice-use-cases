@@ -89,6 +89,7 @@ Table of Contents
    7.  IANA Considerations
    8.  Normative References
    Acknowledgments
+   Document History
    Authors' Addresses
 
 1.  Introduction
@@ -346,6 +347,22 @@ Table of Contents
 Acknowledgments
 
    TODO acknowledge.
+
+Document History
+
+   -01
+
+   *  Added offline use case
+
+   *  Added IoT use case
+
+   *  Added microcredentials use case
+
+   *  Changed author affiliations
+
+   -00
+
+   *  Initial individual draft
 
 Authors' Addresses
 
