@@ -162,7 +162,25 @@ Common use cases include:
 
 ## Offline exchange of credentials
 
-TODO offline exchange use case
+Many real-world scenarios require credentials to be disclosed, verified, and
+validated without continuous or immediate access to online services. This can be
+due to network limitations, privacy concerns, or operational constraints in
+environments where connectivity is intermittent or unavailable. Some digital
+credential frameworks assume online verification mechanisms, which may not be
+suitable for offline-first environments where entities must verify credentials
+using locally-available data and cryptographic techniques.
+
+Common use cases include:
+
+- Identity verification in disconnected environments, such as remote regions,
+  military operations, or disaster recovery efforts.
+- Travel and border security, where credentials such as visas, vaccination
+  records, or national IDs must be verified in locations with limited or no
+  network connectivity.
+- Access control in secure facilities, such as industrial sites, research labs,
+  or private events.
+- Device authentication in air-gapped systems.
+- Peer-to-peer credential sharing.
 
 ## Embedding Credentials
 
