@@ -23,13 +23,13 @@ venue:
 author:
  -
     fullname: "Michael Prorock"
-    organization: "mesur.io"
-    email: "mprorock@mesur.io"
+    organization: "Tradeverifyd"
+    email: "mprorock@tradeverifyd.com"
 
  -
     fullname: "Brent Zundel"
-    organization: "mesur.io"
-    email: "brent.zundel@mesur.io"
+    organization: "Tradeverifyd"
+    email: "brent.zundel@tradeverifyd.com"
 
 normative:
 
@@ -48,16 +48,14 @@ most in need of specification or detailed documentation.
 
 # Introduction
 
-There is a need to more clearly document verifiable credentials - that is
-credentials that utilize the issuer, holder, and verifier (three party) model
-across various work IETF, ISO, W3C, and other SDOs. This need particularly
-arises in use cases for verifiable credentials that do not involve
-human-in-the-loop interactions, need strong identifiers for business entities,
-and for those that require CBOR encoding, and those that leverage the
-cryptographic agility properties of COSE. This document which covers multiple
-use cases for verifiable credentials will help inform both the required
-architecture and components, as well as to help frame needs for any clearly
-defined message formats and/or supporting mechanisms.
+There is a need to more clearly document digital credentials that utilize the
+issuer-holder-verifier model across various work at IETF, ISO, W3C, and other
+SDOs. This need particularly arises in use cases for verifiable credentials that
+do not involve human-in-the-loop interactions, require strong identifiers for
+business entities, call for the benefits of CBOR encoding, or leverage the
+cryptographic agility properties of COSE. This document covers multiple use
+cases for verifiable credentials that help inform both the required architecture
+and components, as well as to frame needs for clearly defined message formats or supporting mechanisms.
 
 # Conventions and Definitions
 
@@ -67,54 +65,79 @@ defined message formats and/or supporting mechanisms.
 
 Within SPICE there are a few common patterns that continually arise:
 
-- A need for selective disclosure with CBOR based verifiable credentials
+- Selective disclosure with CBOR based verifiable credentials
 - Cryptographic agility support via COSE, including support for PQC, and
   to permit use of the same signature algorithms with both selective
   disclosure as well as fully disclosed credentials
-- Required strong and long lived identities that are correlated with
-  public key material for verifiacation and permit binding to DNS,
-  existing x509 certificates, as well as providing ready access to
-  public keys for verification utilizing HTTP
+- Strong and long-lived identities that may be correlated with public key
+  material for verification and permit binding to DNS or existing x509
+  certificates, as well as providing ready access to public keys for
+  verification utilizing HTTP
 
 # SPICE Use Cases
 
 There are several expanding use cases and common patterns that motivate
 the working group and broader community, including:
 
-- Use of microcredentials, particularly in education
-- Digitization of physical supply chain credentials in multiple
-  jurisdictions
+- Microcredentials, particularly in education
+- Digitization of physical supply chain documents in multiple
+  jurisdictions:
   - CBOR credentials
-  - High volume with system to system exchange of credentions
-  - both regulatory data as well as business driven information
-- IoT, Control Systems, and Critical Infrastructure related Credentials
+  - High-volume system-to-system exchange of credentials
+  - Regulatory data and business-driven information
+- Credentials related to IoT, Control Systems, and Critical Infrastructure
 - Credentials related to authenticity and provenance, especially of
   digital media
 - Offline exchange (in person) of credentials that may have been
   internet issued
-- Embedding of credentials in other data formats
+- Embedding credentials in other data formats
 - Digital Wallet Initiatives
 
 # Use Case Discussion
 
 ## Roles
 
-An "issuer", an entity (person, device, organization, or software agent) that constructs and secures digital credentials.
+An "issuer", an entity (person, device, organization, or software agent) that constructs, secures, and shares digital credentials.
 
-A "holder", an entity (person, device, organization, or software agent) that controls the disclosure of credentials.
+A "holder", an entity (person, device, organization, or software agent) that
+stores issued credentials and controls their disclosure.
 
-A "verifier", an entity (person, device, organization, or software agent) that verifies and validates secured digital credentials.
+A "verifier", an entity (person, device, organization, or software agent) that
+receives, verifies, and validates disclosed digital credentials.
+
+## Microcredentials in Education
+
+Microcredentials provide a flexible and verifiable way to recognize skills,
+achievements, and competencies in education. Unlike traditional degrees or
+certifications, microcredentials offer a modular and portable format that can be
+tailored to specific learning outcomes. They enable lifelong learning, career
+advancement, and industry-aligned skill validation while allowing learners to
+demonstrate their achievements in a verifiable and interoperable manner.
+
+Common use cases:
+
+- Microcredentials for industry-specific skills such as cloud computing,
+  cybersecurity, or data analytics, enabling verifiable skills on job
+  applications, LinkedIn profiles, or digital resumes.
+- Recognizing individual competencies as learners progress through a program,
+  which allows institutions and employers to verify achievements more granularly.
+- Stackable microcredentials that allow learners to accumulate and combine
+  microcredentials into a larger qualification.
+- Work-integrated learning and apprenticeships: skills and competencies gained
+  through internships, apprenticeships, or on-the-job training, enabling
+  employers to issue digital credentials for workplace learning experiences.
+- Recognition of informal learning, community-based education, or non-degree
+  programs to support individuals without access to traditional higher education.
 
 ## Physical Supply Chain Credentials
 
-Physical supply chain credentials create several unique scenarios and
-requirements for technical implementers. There is a strong movement
-towards digitiztion of physical supply chain data which is often
-exchanged in paper or scanned pdf form today using legacy approaches.
-Some steps have been taken towards digitatization of supply chain data
-in XML, however the steps have proved problematic over native binary
-formats due to the complexity, size, and volumes of transmission often
-involved.
+Physical supply chains provide several unique scenarios and requirements for
+implementers of digital credentials. There is a strong movement toward
+digitization of physical supply chain documents which are typically exchanged on
+paper or scanned pdf form today using legacy approaches.
+Some steps have been taken towards digitatization of supply chain documents
+using XML, however this has proved problematic over native binary formats due to
+the complexity, size, and volumes of transmission often involved.
 
 Common use cases for physical supply chains include:
 
@@ -126,7 +149,7 @@ Common use cases for physical supply chains include:
   - Traceability information, including change of control and geospatial
     coordinates
 - Providing the ability for 3rd parties to "certify" information about
-  another actor in the supply chain. e.g. Vendor A is an approved
+  another actor in the supply chain. e.g., Vendor A is an approved
   supplier for Company X
 - Passing of data between multiple intermediaries, before being sent
   along to customs agencies or consignees.
@@ -135,28 +158,79 @@ Common use cases for physical supply chains include:
 - Identifying actors in a supply chain and linking them with legal
   entity information
 
+## IoT, Control Systems, and Critical Infrastructure Credentials
+
+The deployment of digital credentials in constrained systems such as IoT,
+control systems, and critical infrastructure environments introduces challenges.
+These systems often operate in environments with strict security, latency, and
+interoperability requirements. Digital credentials play a role in ensuring
+secure device identity, access control, and trusted data exchange between
+interconnected systems.
+
+Common use cases include:
+- Device identity and authentication ensuring only authorized IoT devices can
+  connect to a network or control system.
+- Restricting access to critical systems, such as industrial control systems,
+  SCADA networks, and energy grid controllers, to only authorized personnel and
+  devices.
+- Role-based access control (RBAC) and attribute-based access control (ABAC)
+  policies using digital credentials.
+- Encrypted and authenticated data exchange between industrial sensors,
+  actuators, and control systems.
+- Verifying software updates and firmware integrity using signed credentials to
+  prevent unauthorized modifications.
+- Tamper-resistant logging and auditing: digitally signed operational logs and
+  sensor data to enable post-incident forensic analysis.
+- Temporary access credentials for emergency personnel and automated response
+  systems during critical incidents.
+
 ## Credentials related to Authenticity and Provenance
 
-Due to a proliferation of AI generated or modified content, there has
-been an increased need to provide the ability to establish the
-provenance of digital material.  Questions of authenticity and the means
-of creation (human created, machine assited, machine created) also
-abound, and in cases where AI generated content, providing the model
-information related to the generation of that content is becoming
-increasingly important.
+Due to a proliferation of AI-generated or modified content, there is an
+increased need to provide the ability to establish the provenance of digital
+materials.  Questions of authenticity and the means of creation (human created,
+machine assited, machine created) also abound. In cases where an AI created the
+content, providing the model information related to the generation of that
+content is becoming increasingly important.
 
 Common use cases include:
 
-- Understanding if a received piece of media is human created, and that
+- Determining whether a received piece of media is human created, and that
   the content is authorized for certain uses.
 - Providing the ability to trace training materials for LLMs and similar
   models to output
 - Understanding if media was created by an authoritative or trustworthy
   source
 
-## Others
+## Offline exchange of credentials
 
-TBD
+Many real-world scenarios require credentials to be disclosed, verified, and
+validated without continuous or immediate access to online services. This can be
+due to network limitations, privacy concerns, or operational constraints in
+environments where connectivity is intermittent or unavailable. Some digital
+credential frameworks assume online verification mechanisms, which may not be
+suitable for offline-first environments where entities must verify credentials
+using locally-available data and cryptographic techniques.
+
+Common use cases include:
+
+- Identity verification in disconnected environments, such as remote regions,
+  military operations, or disaster recovery efforts.
+- Travel and border security, where credentials such as visas, vaccination
+  records, or national IDs must be verified in locations with limited or no
+  network connectivity.
+- Access control in secure facilities, such as industrial sites, research labs,
+  or private events.
+- Device authentication in air-gapped systems.
+- Peer-to-peer credential sharing.
+
+## Embedding Credentials
+
+TODO embedding credentials use case
+
+## Digital Wallets
+
+TODO digital wallet use case
 
 # Security Considerations
 
