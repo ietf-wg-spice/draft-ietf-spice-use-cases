@@ -107,7 +107,27 @@ receives, verifies, and validates disclosed digital credentials.
 
 ## Microcredentials in Education
 
-TODO microcredentials use case
+Microcredentials provide a flexible and verifiable way to recognize skills,
+achievements, and competencies in education. Unlike traditional degrees or
+certifications, microcredentials offer a modular and portable format that can be
+tailored to specific learning outcomes. They enable lifelong learning, career
+advancement, and industry-aligned skill validation while allowing learners to
+demonstrate their achievements in a verifiable and interoperable manner.
+
+Common use cases:
+
+- Microcredentials for industry-specific skills such as cloud computing,
+  cybersecurity, or data analytics, enabling verifiable skills on job
+  applications, LinkedIn profiles, or digital resumes.
+- Recognizing individual competencies as learners progress through a program,
+  which allows institutions and employers to verify achievements more granularly.
+- Stackable microcredentials that allow learners to accumulate and combine
+  microcredentials into a larger qualification.
+- Work-integrated learning and apprenticeships: skills and competencies gained
+  through internships, apprenticeships, or on-the-job training, enabling
+  employers to issue digital credentials for workplace learning experiences.
+- Recognition of informal learning, community-based education, or non-degree
+  programs to support individuals without access to traditional higher education.
 
 ## Physical Supply Chain Credentials
 
