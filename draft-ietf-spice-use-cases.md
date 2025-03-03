@@ -85,7 +85,7 @@ the working group and broader community, including:
   - CBOR credentials
   - High-volume system-to-system exchange of credentials
   - Regulatory data and business-driven information
-- Credentials related to IoT, Control Systems, and Critical Infrastructure 
+- Credentials related to IoT, Control Systems, and Critical Infrastructure
 - Credentials related to authenticity and provenance, especially of
   digital media
 - Offline exchange (in person) of credentials that may have been
@@ -167,7 +167,7 @@ interoperability requirements. Digital credentials play a role in ensuring
 secure device identity, access control, and trusted data exchange between
 interconnected systems.
 
-Common use cases include: 
+Common use cases include:
 - Device identity and authentication ensuring only authorized IoT devices can
   connect to a network or control system.
 - Restricting access to critical systems, such as industrial control systems,
