@@ -23,13 +23,13 @@ venue:
 author:
  -
     fullname: "Michael Prorock"
-    organization: "mesur.io"
-    email: "mprorock@mesur.io"
+    organization: "Tradeverifyd"
+    email: "mprorock@tradeverifyd.com"
 
  -
     fullname: "Brent Zundel"
-    organization: "mesur.io"
-    email: "brent.zundel@mesur.io"
+    organization: "Tradeverifyd"
+    email: "brent.zundel@tradeverifyd.com"
 
 normative:
 
@@ -48,16 +48,14 @@ most in need of specification or detailed documentation.
 
 # Introduction
 
-There is a need to more clearly document verifiable credentials - that is
-credentials that utilize the issuer, holder, and verifier (three party) model
-across various work IETF, ISO, W3C, and other SDOs. This need particularly
-arises in use cases for verifiable credentials that do not involve
-human-in-the-loop interactions, need strong identifiers for business entities,
-and for those that require CBOR encoding, and those that leverage the
-cryptographic agility properties of COSE. This document which covers multiple
-use cases for verifiable credentials will help inform both the required
-architecture and components, as well as to help frame needs for any clearly
-defined message formats and/or supporting mechanisms.
+There is a need to more clearly document digital credentials that utilize the
+issuer-holder-verifier model across various work at IETF, ISO, W3C, and other
+SDOs. This need particularly arises in use cases for verifiable credentials that
+do not involve human-in-the-loop interactions, require strong identifiers for
+business entities, call for the benefits of CBOR encoding, or leverage the
+cryptographic agility properties of COSE. This document covers multiple use
+cases for verifiable credentials that help inform both the required architecture
+and components, as well as to frame needs for clearly defined message formats or supporting mechanisms.
 
 # Conventions and Definitions
 
