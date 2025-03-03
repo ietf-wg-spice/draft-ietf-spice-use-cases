@@ -140,7 +140,29 @@ Common use cases for physical supply chains include:
 
 ## IoT, Control Systems, and Critical Infrastructure Credentials
 
-TODO IOT etc use cases
+The deployment of digital credentials in constrained systems such as IoT,
+control systems, and critical infrastructure environments introduces challenges.
+These systems often operate in environments with strict security, latency, and
+interoperability requirements. Digital credentials play a role in ensuring
+secure device identity, access control, and trusted data exchange between
+interconnected systems.
+
+Common use cases include: 
+- Device identity and authentication ensuring only authorized IoT devices can
+  connect to a network or control system.
+- Restricting access to critical systems, such as industrial control systems,
+  SCADA networks, and energy grid controllers, to only authorized personnel and
+  devices.
+- Role-based access control (RBAC) and attribute-based access control (ABAC)
+  policies using digital credentials.
+- Encrypted and authenticated data exchange between industrial sensors,
+  actuators, and control systems.
+- Verifying software updates and firmware integrity using signed credentials to
+  prevent unauthorized modifications.
+- Tamper-resistant logging and auditing: digitally signed operational logs and
+  sensor data to enable post-incident forensic analysis.
+- Temporary access credentials for emergency personnel and automated response
+  systems during critical incidents.
 
 ## Credentials related to Authenticity and Provenance
 
