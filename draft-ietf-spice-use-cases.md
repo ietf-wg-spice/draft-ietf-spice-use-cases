@@ -65,54 +65,59 @@ and components, as well as to frame needs for clearly defined message formats or
 
 Within SPICE there are a few common patterns that continually arise:
 
-- A need for selective disclosure with CBOR based verifiable credentials
+- Selective disclosure with CBOR based verifiable credentials
 - Cryptographic agility support via COSE, including support for PQC, and
   to permit use of the same signature algorithms with both selective
   disclosure as well as fully disclosed credentials
-- Required strong and long lived identities that are correlated with
-  public key material for verifiacation and permit binding to DNS,
-  existing x509 certificates, as well as providing ready access to
-  public keys for verification utilizing HTTP
+- Strong and long-lived identities that may be correlated with public key
+  material for verification and permit binding to DNS or existing x509
+  certificates, as well as providing ready access to public keys for
+  verification utilizing HTTP
 
 # SPICE Use Cases
 
 There are several expanding use cases and common patterns that motivate
 the working group and broader community, including:
 
-- Use of microcredentials, particularly in education
-- Digitization of physical supply chain credentials in multiple
-  jurisdictions
+- Microcredentials, particularly in education
+- Digitization of physical supply chain documents in multiple
+  jurisdictions:
   - CBOR credentials
-  - High volume with system to system exchange of credentions
-  - both regulatory data as well as business driven information
-- IoT, Control Systems, and Critical Infrastructure related Credentials
+  - High-volume system-to-system exchange of credentials
+  - Regulatory data and business-driven information
+- Credentials related to IoT, Control Systems, and Critical Infrastructure 
 - Credentials related to authenticity and provenance, especially of
   digital media
 - Offline exchange (in person) of credentials that may have been
   internet issued
-- Embedding of credentials in other data formats
+- Embedding credentials in other data formats
 - Digital Wallet Initiatives
 
 # Use Case Discussion
 
 ## Roles
 
-An "issuer", an entity (person, device, organization, or software agent) that constructs and secures digital credentials.
+An "issuer", an entity (person, device, organization, or software agent) that constructs, secures, and shares digital credentials.
 
-A "holder", an entity (person, device, organization, or software agent) that controls the disclosure of credentials.
+A "holder", an entity (person, device, organization, or software agent) that
+stores issued credentials and controls their disclosure.
 
-A "verifier", an entity (person, device, organization, or software agent) that verifies and validates secured digital credentials.
+A "verifier", an entity (person, device, organization, or software agent) that
+receives, verifies, and validates disclosed digital credentials.
+
+## Microcredentials in Education
+
+TODO microcredentials use case
 
 ## Physical Supply Chain Credentials
 
-Physical supply chain credentials create several unique scenarios and
-requirements for technical implementers. There is a strong movement
-towards digitiztion of physical supply chain data which is often
-exchanged in paper or scanned pdf form today using legacy approaches.
-Some steps have been taken towards digitatization of supply chain data
-in XML, however the steps have proved problematic over native binary
-formats due to the complexity, size, and volumes of transmission often
-involved.
+Physical supply chains provide several unique scenarios and requirements for
+implementers of digital credentials. There is a strong movement toward
+digitization of physical supply chain documents which are typically exchanged on
+paper or scanned pdf form today using legacy approaches.
+Some steps have been taken towards digitatization of supply chain documents
+using XML, however this has proved problematic over native binary formats due to
+the complexity, size, and volumes of transmission often involved.
 
 Common use cases for physical supply chains include:
 
@@ -124,7 +129,7 @@ Common use cases for physical supply chains include:
   - Traceability information, including change of control and geospatial
     coordinates
 - Providing the ability for 3rd parties to "certify" information about
-  another actor in the supply chain. e.g. Vendor A is an approved
+  another actor in the supply chain. e.g., Vendor A is an approved
   supplier for Company X
 - Passing of data between multiple intermediaries, before being sent
   along to customs agencies or consignees.
@@ -133,28 +138,39 @@ Common use cases for physical supply chains include:
 - Identifying actors in a supply chain and linking them with legal
   entity information
 
+## IoT, Control Systems, and Critical Infrastructure Credentials
+
+TODO IOT etc use cases
+
 ## Credentials related to Authenticity and Provenance
 
-Due to a proliferation of AI generated or modified content, there has
-been an increased need to provide the ability to establish the
-provenance of digital material.  Questions of authenticity and the means
-of creation (human created, machine assited, machine created) also
-abound, and in cases where AI generated content, providing the model
-information related to the generation of that content is becoming
-increasingly important.
+Due to a proliferation of AI-generated or modified content, there is an
+increased need to provide the ability to establish the provenance of digital
+materials.  Questions of authenticity and the means of creation (human created,
+machine assited, machine created) also abound. In cases where an AI created the
+content, providing the model information related to the generation of that
+content is becoming increasingly important.
 
 Common use cases include:
 
-- Understanding if a received piece of media is human created, and that
+- Determining whether a received piece of media is human created, and that
   the content is authorized for certain uses.
 - Providing the ability to trace training materials for LLMs and similar
   models to output
 - Understanding if media was created by an authoritative or trustworthy
   source
 
-## Others
+## Offline exchange of credentials
 
-TBD
+TODO offline exchange use case
+
+## Embedding Credentials
+
+TODO embedding credentials use case
+
+## Digital Wallets
+
+TODO digital wallet use case
 
 # Security Considerations
 
