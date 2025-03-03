@@ -250,12 +250,15 @@ This document has no IANA actions.
 TODO acknowledge.
 
 # Document History
+{: numbered="false"}
 
 -01
+
 - Added offline use case
 - Added IoT use case
 - Added microcredentials use case
 - Changed author affiliations
 
 -00
+
 - Initial individual draft
