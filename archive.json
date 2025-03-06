@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-30T01:02:30.406289+00:00",
+  "timestamp": "2025-03-06T01:07:50.719292+00:00",
   "repo": "ietf-wg-spice/draft-ietf-spice-use-cases",
   "labels": [
     {
@@ -50,5 +50,48 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOMvKKis6NNMzf",
+      "title": "Cleanup and add some missing use cases",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/1",
+      "state": "MERGED",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-03-03T20:32:31Z",
+      "updatedAt": "2025-03-03T21:27:28Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "59433f79619bbf9445717df00568b17c44e45130",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "cleanup",
+      "headRefOid": "e22c9422d2689c74d86e187480e2c943f5c4ad93",
+      "closedAt": "2025-03-03T21:27:28Z",
+      "mergedAt": "2025-03-03T21:27:28Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "660d788bf7b41b6c43f1bc7fe62fc516bfb57786"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMvKKis6eRJNH",
+          "commit": {
+            "abbreviatedOid": "2b4abbf"
+          },
+          "author": "mprorock",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-03-03T21:10:23Z",
+          "updatedAt": "2025-03-03T21:10:23Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
 }
