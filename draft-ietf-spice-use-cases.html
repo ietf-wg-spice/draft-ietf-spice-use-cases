@@ -13,18 +13,18 @@ three party model (issuer, holder, verifier). These use cases aid in the
 identification of which Secure Patterns for Internet CrEdentials (SPICE) are
 most in need of specification or detailed documentation. 
     " name="description">
-<meta content="xml2rfc 3.28.0" name="generator">
+<meta content="xml2rfc 3.28.1" name="generator">
 <meta content="SPICE" name="keyword">
 <meta content="draft-ietf-spice-use-cases-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.28.0
+  xml2rfc 3.28.1
     Python 3.12.9
     ConfigArgParse 1.7
     google-i18n-address 3.1.1
     intervaltree 3.1.0
-    Jinja2 3.1.5
+    Jinja2 3.1.6
     lxml 5.3.0
-    platformdirs 4.3.6
+    platformdirs 4.3.7
     pycountry 24.6.1
     PyYAML 6.0.2
     requests 2.32.3
@@ -1048,11 +1048,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Use Cases for SPICE</td>
-<td class="right">March 2025</td>
+<td class="right">April 2025</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Prorock &amp; Zundel</td>
-<td class="center">Expires 5 September 2025</td>
+<td class="center">Expires 5 October 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1065,12 +1065,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-ietf-spice-use-cases-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2025-03-04" class="published">4 March 2025</time>
+<time datetime="2025-04-03" class="published">3 April 2025</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-09-05">5 September 2025</time></dd>
+<dd class="expires"><time datetime="2025-10-05">5 October 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1127,7 +1127,7 @@ most in need of specification or detailed documentation.<a href="#section-abstra
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 5 September 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 5 October 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1433,22 +1433,38 @@ These systems often operate in environments with strict security, latency, and
 interoperability requirements. Digital credentials play a role in ensuring
 secure device identity, access control, and trusted data exchange between
 interconnected systems.<a href="#section-5.4-1" class="pilcrow">¶</a></p>
-<p id="section-5.4-2">Common use cases include:
-- Device identity and authentication ensuring only authorized IoT devices can
-  connect to a network or control system.
-- Restricting access to critical systems, such as industrial control systems,
-  SCADA networks, and energy grid controllers, to only authorized personnel and
-  devices.
-- Role-based access control (RBAC) and attribute-based access control (ABAC)
-  policies using digital credentials.
-- Encrypted and authenticated data exchange between industrial sensors,
-  actuators, and control systems.
-- Verifying software updates and firmware integrity using signed credentials to
-  prevent unauthorized modifications.
-- Tamper-resistant logging and auditing: digitally signed operational logs and
-  sensor data to enable post-incident forensic analysis.
-- Temporary access credentials for emergency personnel and automated response
-  systems during critical incidents.<a href="#section-5.4-2" class="pilcrow">¶</a></p>
+<p id="section-5.4-2">Common use cases include:<a href="#section-5.4-2" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-5.4-3.1">
+            <p id="section-5.4-3.1.1">Device identity and authentication ensuring only authorized IoT devices can
+connect to a network or control system.<a href="#section-5.4-3.1.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.4-3.2">
+            <p id="section-5.4-3.2.1">Restricting access to critical systems, such as industrial control systems,
+SCADA networks, and energy grid controllers, to only authorized personnel and
+devices.<a href="#section-5.4-3.2.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.4-3.3">
+            <p id="section-5.4-3.3.1">Role-based access control (RBAC) and attribute-based access control (ABAC)
+policies using digital credentials.<a href="#section-5.4-3.3.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.4-3.4">
+            <p id="section-5.4-3.4.1">Encrypted and authenticated data exchange between industrial sensors,
+actuators, and control systems.<a href="#section-5.4-3.4.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.4-3.5">
+            <p id="section-5.4-3.5.1">Verifying software updates and firmware integrity using signed credentials to
+prevent unauthorized modifications.<a href="#section-5.4-3.5.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.4-3.6">
+            <p id="section-5.4-3.6.1">Tamper-resistant logging and auditing: digitally signed operational logs and
+sensor data to enable post-incident forensic analysis.<a href="#section-5.4-3.6.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.4-3.7">
+            <p id="section-5.4-3.7.1">Temporary access credentials for emergency personnel and automated response
+systems during critical incidents.<a href="#section-5.4-3.7.1" class="pilcrow">¶</a></p>
+</li>
+        </ul>
 </section>
 </div>
 <div id="credentials-related-to-authenticity-and-provenance">

@@ -5,7 +5,7 @@
 Secure Patterns for Internet CrEdentials                      M. Prorock
 Internet-Draft                                                 B. Zundel
 Intended status: Informational                              Tradeverifyd
-Expires: 5 September 2025                                   4 March 2025
+Expires: 5 October 2025                                     3 April 2025
 
 
                           Use Cases for SPICE
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 September 2025.
+   This Internet-Draft will expire on 5 October 2025.
 
 Copyright Notice
 
@@ -252,20 +252,30 @@ Table of Contents
    access control, and trusted data exchange between interconnected
    systems.
 
-   Common use cases include: - Device identity and authentication
-   ensuring only authorized IoT devices can connect to a network or
-   control system. - Restricting access to critical systems, such as
-   industrial control systems, SCADA networks, and energy grid
-   controllers, to only authorized personnel and devices. - Role-based
-   access control (RBAC) and attribute-based access control (ABAC)
-   policies using digital credentials. - Encrypted and authenticated
-   data exchange between industrial sensors, actuators, and control
-   systems. - Verifying software updates and firmware integrity using
-   signed credentials to prevent unauthorized modifications. - Tamper-
-   resistant logging and auditing: digitally signed operational logs and
-   sensor data to enable post-incident forensic analysis. - Temporary
-   access credentials for emergency personnel and automated response
-   systems during critical incidents.
+   Common use cases include:
+
+   *  Device identity and authentication ensuring only authorized IoT
+      devices can connect to a network or control system.
+
+   *  Restricting access to critical systems, such as industrial control
+      systems, SCADA networks, and energy grid controllers, to only
+      authorized personnel and devices.
+
+   *  Role-based access control (RBAC) and attribute-based access
+      control (ABAC) policies using digital credentials.
+
+   *  Encrypted and authenticated data exchange between industrial
+      sensors, actuators, and control systems.
+
+   *  Verifying software updates and firmware integrity using signed
+      credentials to prevent unauthorized modifications.
+
+   *  Tamper-resistant logging and auditing: digitally signed
+      operational logs and sensor data to enable post-incident forensic
+      analysis.
+
+   *  Temporary access credentials for emergency personnel and automated
+      response systems during critical incidents.
 
 5.5.  Credentials related to Authenticity and Provenance
 
