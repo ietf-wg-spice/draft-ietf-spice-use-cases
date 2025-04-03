@@ -168,6 +168,7 @@ secure device identity, access control, and trusted data exchange between
 interconnected systems.
 
 Common use cases include:
+
 - Device identity and authentication ensuring only authorized IoT devices can
   connect to a network or control system.
 - Restricting access to critical systems, such as industrial control systems,
