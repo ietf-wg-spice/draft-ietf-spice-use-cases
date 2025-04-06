@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-03T01:10:25.052373+00:00",
+  "timestamp": "2025-04-06T01:14:44.186691+00:00",
   "repo": "ietf-wg-spice/draft-ietf-spice-use-cases",
   "labels": [
     {
@@ -89,6 +89,48 @@
           "body": "",
           "createdAt": "2025-03-03T21:10:23Z",
           "updatedAt": "2025-03-03T21:10:23Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOMvKKis6RP_M6",
+      "title": "Readability nit",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/2",
+      "state": "MERGED",
+      "author": "cabo",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-04-03T12:21:15Z",
+      "updatedAt": "2025-04-03T17:00:58Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "c539fbc8f8e3cf9f01198ce7f136665ce7fdd850",
+      "headRepository": "cabo/draft-ietf-spice-use-cases",
+      "headRefName": "patch-1",
+      "headRefOid": "c5ba28d427d7d78d207ee15043ec1c12c2245401",
+      "closedAt": "2025-04-03T17:00:57Z",
+      "mergedAt": "2025-04-03T17:00:57Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "d71f407b50101240f3614701314da1f8a4ebdbfb"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMvKKis6jWjDU",
+          "commit": {
+            "abbreviatedOid": "c5ba28d"
+          },
+          "author": "brentzundel",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Thanks @cabo !",
+          "createdAt": "2025-04-03T17:00:14Z",
+          "updatedAt": "2025-04-03T17:00:14Z",
           "comments": []
         }
       ]
