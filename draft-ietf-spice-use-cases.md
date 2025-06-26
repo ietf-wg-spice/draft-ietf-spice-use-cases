@@ -90,6 +90,7 @@ the working group and broader community, including:
   digital media
 - Offline exchange (in person) of credentials that may have been
   internet issued
+- Attribute sharing for trusted telephone interactions
 - Embedding credentials in other data formats
 - Digital Wallet Initiatives
 
@@ -224,6 +225,24 @@ Common use cases include:
   or private events.
 - Device authentication in air-gapped systems.
 - Peer-to-peer credential sharing.
+
+## Attribute Sharing for Trusted Telephone Interactions
+
+When a user subscribes to a telecom operator, a subscription identifier is
+issued that enables the operator to identify the user. However, the subscription
+information is limited. Operators or Over-the-Top (OTT) providers with the
+capability to verify user VCs, which serve as reliable proofs of users'
+attributes, enable a user to share those attributes over a telecom network.
+
+Common use cases include:
+
+- Delivery workers supply credentials for verification of their job-related
+attributes to the telecom operator. After successful verification, the operator
+tags their calls so that customers can easily identify that the calls are
+from legitimate delivery workers.
+- Bank employees taking calls from customers can receive digitally signed
+account information, which enables a smoother experience for the customer and a
+higher level of assurance for the bank.
 
 ## Embedding Credentials
 
