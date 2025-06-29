@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-26T01:17:10.293957+00:00",
+  "timestamp": "2025-06-29T01:25:52.023583+00:00",
   "repo": "ietf-wg-spice/draft-ietf-spice-use-cases",
   "labels": [
     {
@@ -49,7 +49,96 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 4,
+      "id": "I_kwDOMvKKis69kCcW",
+      "title": "Need use case for embedded credentials",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/4",
+      "state": "OPEN",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-26T20:33:50Z",
+      "updatedAt": "2025-06-26T20:33:50Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOMvKKis69kCky",
+      "title": "need digital wallets use case",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/5",
+      "state": "OPEN",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-26T20:34:05Z",
+      "updatedAt": "2025-06-26T20:34:05Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 6,
+      "id": "I_kwDOMvKKis69kCwO",
+      "title": "need security considerations",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/6",
+      "state": "OPEN",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-26T20:34:19Z",
+      "updatedAt": "2025-06-26T20:34:19Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOMvKKis69kC5D",
+      "title": "need acknowledgements",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/7",
+      "state": "OPEN",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-26T20:34:34Z",
+      "updatedAt": "2025-06-26T20:34:34Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOMvKKis69kFvc",
+      "title": "Merge with Telecom Use Cases Draft",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/8",
+      "state": "OPEN",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "It has been requested that we merge https://datatracker.ietf.org/doc/draft-song-spice-telecom-usecases/ with this document, both by the document authors and the SPICE WG chairs.",
+      "createdAt": "2025-06-26T20:38:27Z",
+      "updatedAt": "2025-06-26T20:40:12Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "hlflanagan",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Good idea.",
+          "createdAt": "2025-06-26T20:40:12Z",
+          "updatedAt": "2025-06-26T20:40:12Z"
+        }
+      ]
+    }
+  ],
   "pulls": [
     {
       "number": 1,
@@ -134,6 +223,60 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOMvKKis6cTG4d",
+      "title": "fix brent email",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/3",
+      "state": "MERGED",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-26T20:32:25Z",
+      "updatedAt": "2025-06-26T20:32:59Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "d71f407b50101240f3614701314da1f8a4ebdbfb",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "email",
+      "headRefOid": "50275abe42c7b51137c0131281c52c3ba2b6dbc0",
+      "closedAt": "2025-06-26T20:32:58Z",
+      "mergedAt": "2025-06-26T20:32:58Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "15f2adf33909769e5d75ba7e3cb4f1d651bd35b7"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOMvKKis6cTreK",
+      "title": "Attempt to add 2.1.2. Introduce Attributes into Telecom Network",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/9",
+      "state": "OPEN",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This is an attempt to add \"2.1.2.  Introduce Attributes into Telecom Network\" from https://www.ietf.org/archive/id/draft-song-spice-telecom-usecases-00.txt into this document.\r\n",
+      "createdAt": "2025-06-26T21:35:28Z",
+      "updatedAt": "2025-06-26T21:35:28Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "310e6b728ef62f4e08ef34f06a7cecdb4123c080",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "telecom-sharing",
+      "headRefOid": "d143c1f985d03ea75f10e6f1db6936a04c4050bd",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
