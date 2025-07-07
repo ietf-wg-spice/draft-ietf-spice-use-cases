@@ -392,13 +392,29 @@ Acknowledgments
 
 Document History
 
-   -02 * Added telecom use case * added contributors * added
-   acknowledgements * added security considerations
+   -02
 
-   -01 * Added offline use case * Added IoT use case * Added
-   microcredentials use case * Changed author affiliations
+   *  Added telecom use case
 
-   -00 * Initial individual draft
+   *  added contributors
+
+   *  added acknowledgements
+
+   *  added security considerations
+
+   -01
+
+   *  Added offline use case
+
+   *  Added IoT use case
+
+   *  Added microcredentials use case
+
+   *  Changed author affiliations
+
+   -00
+
+   *  Initial individual draft
 
 Contributors
 
