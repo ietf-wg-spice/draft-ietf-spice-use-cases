@@ -22,14 +22,15 @@ venue:
 
 author:
  -
+    fullname: "Brent Zundel"
+    organization: "Tradeverifyd"
+    email: brent.zundel@gmail.com
+
+ -
     fullname: "Michael Prorock"
     organization: "Tradeverifyd"
     email: "mprorock@tradeverifyd.com"
 
- -
-    fullname: "Brent Zundel"
-    organization: "Tradeverifyd"
-    email: brent.zundel@gmail.com
 
 contributor:
   -
@@ -293,6 +294,7 @@ Yurong Song, Lun Li, Donghui Wang, Fei Liu
 
 # Document History
 {: numbered="false"}
+
    -02
    * Added telecom use case
    * added contributors
