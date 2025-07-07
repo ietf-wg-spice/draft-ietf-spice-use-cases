@@ -275,8 +275,7 @@ TODO digital wallet use case
 
 # Security Considerations
 
-TODO Security
-
+There are no security considerations for this document.
 
 # IANA Considerations
 
