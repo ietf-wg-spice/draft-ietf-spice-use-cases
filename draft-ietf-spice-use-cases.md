@@ -31,6 +31,24 @@ author:
     organization: "Tradeverifyd"
     email: brent.zundel@gmail.com
 
+contributor:
+  -
+    fullname: Yurong Song
+    organization: Huawei
+    email: songyurong1@huawei.com
+  -
+    fullname: Lun Li
+    organization: Huawei
+    email: lilun20@huawei.com
+  -
+    fullname: Donghui Wang
+    organization: Huawei
+    email: wangdonghui124@huawei.com
+  -
+    fullname: Fei Liu
+    organization: Huawei
+    email: liufei19@huawei.com
+
 normative:
 
 informative:
@@ -90,6 +108,7 @@ the working group and broader community, including:
   digital media
 - Offline exchange (in person) of credentials that may have been
   internet issued
+- Attribute sharing for trusted telephone interactions
 - Embedding credentials in other data formats
 - Digital Wallet Initiatives
 
@@ -225,6 +244,27 @@ Common use cases include:
 - Device authentication in air-gapped systems.
 - Peer-to-peer credential sharing.
 
+## Attribute Sharing for Trusted Telephone Interactions
+
+When a user subscribes to a telecom operator, a subscription identifier is
+issued that enables the operator to identify the user. However, the subscription
+information is limited. Operators or Over-the-Top (OTT) providers with the
+capability to verify user VCs, which serve as reliable proofs of users'
+attributes, enable a user to share those attributes over a telecom network.
+
+Common use cases include:
+
+- Bank employees taking calls from customers can receive digitally signed
+account information, which enables a smoother experience for the customer and a
+higher level of assurance for the bank.
+- Identification of the user across network domains supports mobility in a
+larger area (e.g., cross-border traveling, studying abroad) by endorsing
+attributes (e.g. , “subscriber of a legal operator”).
+- Disclosure of a user’s role or affiliation to other parties during a phone
+call by presenting the attributes endorsed by the operator or OTT providers.
+- Operator or OTT provider service provisioning by verifying user attributes
+(e.g., subscription status)
+
 ## Embedding Credentials
 
 TODO embedding credentials use case
@@ -248,4 +288,6 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+The authors would like to thank the following individuals for their
+contributions to this specification:
+Yurong Song, Lun Li, Donghui Wang, Fei Liu
