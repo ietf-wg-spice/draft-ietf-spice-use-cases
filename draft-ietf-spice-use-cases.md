@@ -236,13 +236,16 @@ attributes, enable a user to share those attributes over a telecom network.
 
 Common use cases include:
 
-- Delivery workers supply credentials for verification of their job-related
-attributes to the telecom operator. After successful verification, the operator
-tags their calls so that customers can easily identify that the calls are
-from legitimate delivery workers.
 - Bank employees taking calls from customers can receive digitally signed
 account information, which enables a smoother experience for the customer and a
 higher level of assurance for the bank.
+- Identification of the user across network domains supports mobility in a
+larger area (e.g., cross-border traveling, studying abroad) by endorsing
+attributes (e.g. , “subscriber of a legal operator”).
+- Disclosure of a user’s role or affiliation to other parties during a phone
+call by presenting the attributes endorsed by the operator or OTT providers.
+- Operator or OTT provider service provisioning by verifying user attributes
+(e.g., subscription status)
 
 ## Embedding Credentials
 
