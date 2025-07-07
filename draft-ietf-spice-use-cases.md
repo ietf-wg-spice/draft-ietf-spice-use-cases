@@ -290,3 +290,15 @@ This document has no IANA actions.
 The authors would like to thank the following individuals for their
 contributions to this specification:
 Yurong Song, Lun Li, Donghui Wang, Fei Liu
+
+# Document History
+{: numbered="false"}
+
+   -01
+   *  Added offline use case
+   *  Added IoT use case
+   *  Added microcredentials use case
+   *  Changed author affiliations
+
+   -00
+   *  Initial individual draft
