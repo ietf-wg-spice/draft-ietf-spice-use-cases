@@ -295,17 +295,20 @@ Yurong Song, Lun Li, Donghui Wang, Fei Liu
 # Document History
 {: numbered="false"}
 
-   -02
-   * Added telecom use case
-   * added contributors
-   * added acknowledgements
-   * added security considerations
+-02
 
-   -01
-   *  Added offline use case
-   *  Added IoT use case
-   *  Added microcredentials use case
-   *  Changed author affiliations
+* Added telecom use case
+* added contributors
+* added acknowledgements
+* added security considerations
 
-   -00
-   *  Initial individual draft
+-01
+
+*  Added offline use case
+*  Added IoT use case
+*  Added microcredentials use case
+*  Changed author affiliations
+
+-00
+
+*  Initial individual draft
