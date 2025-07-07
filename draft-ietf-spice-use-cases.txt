@@ -90,6 +90,7 @@ Table of Contents
    7.  IANA Considerations
    8.  Normative References
    Acknowledgments
+   Document History
    Contributors
    Authors' Addresses
 
@@ -389,6 +390,13 @@ Acknowledgments
    The authors would like to thank the following individuals for their
    contributions to this specification: Yurong Song, Lun Li, Donghui
    Wang, Fei Liu
+
+Document History
+
+   -01 * Added offline use case * Added IoT use case * Added
+   microcredentials use case * Changed author affiliations
+
+   -00 * Initial individual draft
 
 Contributors
 
