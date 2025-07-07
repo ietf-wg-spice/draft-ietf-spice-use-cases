@@ -367,7 +367,7 @@ Table of Contents
 
 6.  Security Considerations
 
-   TODO Security
+   There are no security considerations for this document.
 
 7.  IANA Considerations
 
