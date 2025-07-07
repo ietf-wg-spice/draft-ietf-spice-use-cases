@@ -293,6 +293,11 @@ Yurong Song, Lun Li, Donghui Wang, Fei Liu
 
 # Document History
 {: numbered="false"}
+   -02
+   * Added telecom use case
+   * added contributors
+   * added acknowledgements
+   * added security considerations
 
    -01
    *  Added offline use case
