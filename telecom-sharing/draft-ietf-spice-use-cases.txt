@@ -90,6 +90,7 @@ Table of Contents
    7.  IANA Considerations
    8.  Normative References
    Acknowledgments
+   Contributors
    Authors' Addresses
 
 1.  Introduction
@@ -385,7 +386,31 @@ Table of Contents
 
 Acknowledgments
 
-   TODO acknowledge.
+   The authors would like to thank the following individuals for their
+   contributions to this specification: Yurong Song, Lun Li, Donghui
+   Wang, Fei Liu
+
+Contributors
+
+   Yurong Song
+   Huawei
+   Email: songyurong1@huawei.com
+
+
+   Lun Li
+   Huawei
+   Email: lilun20@huawei.com
+
+
+   Donghui Wang
+   Huawei
+   Email: wangdonghui124@huawei.com
+
+
+   Fei Liu
+   Huawei
+   Email: liufei19@huawei.com
+
 
 Authors' Addresses
 
