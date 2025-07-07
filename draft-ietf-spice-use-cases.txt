@@ -2,8 +2,8 @@
 
 
 
-Secure Patterns for Internet CrEdentials                      M. Prorock
-Internet-Draft                                                 B. Zundel
+Secure Patterns for Internet CrEdentials                       B. Zundel
+Internet-Draft                                                M. Prorock
 Intended status: Informational                              Tradeverifyd
 Expires: 8 January 2026                                      7 July 2025
 
@@ -424,11 +424,11 @@ Contributors
 
 Authors' Addresses
 
-   Michael Prorock
-   Tradeverifyd
-   Email: mprorock@tradeverifyd.com
-
-
    Brent Zundel
    Tradeverifyd
    Email: brent.zundel@gmail.com
+
+
+   Michael Prorock
+   Tradeverifyd
+   Email: mprorock@tradeverifyd.com
