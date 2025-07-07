@@ -23,11 +23,10 @@ About This Document
 
    This note is to be removed before publishing as an RFC.
 
-   The latest revision of this draft can be found at
-   https://brentzundel.github.io/draft-ietf-spice-use-cases/draft-ietf-
-   spice-use-cases.html.  Status information for this document may be
-   found at https://datatracker.ietf.org/doc/draft-ietf-spice-use-
-   cases/.
+   The latest revision of this draft can be found at https://ietf-wg-
+   spice.github.io/draft-ietf-spice-use-cases/draft-ietf-spice-use-
+   cases.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-ietf-spice-use-cases/.
 
    Discussion of this document takes place on the Secure Patterns for
    Internet CrEdentials Working Group mailing list
@@ -36,7 +35,7 @@ About This Document
    https://www.ietf.org/mailman/listinfo/spice/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/brentzundel/draft-ietf-spice-use-cases.
+   https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases.
 
 Status of This Memo
 
