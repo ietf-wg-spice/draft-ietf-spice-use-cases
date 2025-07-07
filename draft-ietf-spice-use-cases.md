@@ -17,8 +17,8 @@ venue:
   type: "Working Group"
   mail: "spice@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/spice/"
-  github: "brentzundel/draft-ietf-spice-use-cases"
-  latest: "https://brentzundel.github.io/draft-ietf-spice-use-cases/draft-ietf-spice-use-cases.html"
+  github: "ietf-wg-spice/draft-ietf-spice-use-cases"
+  latest: "https://ietf-wg-spice.github.io/draft-ietf-spice-use-cases/draft-ietf-spice-use-cases.html"
 
 author:
  -
