@@ -31,6 +31,24 @@ author:
     organization: "Tradeverifyd"
     email: brent.zundel@gmail.com
 
+contributor:
+  -
+    fullname: Yurong Song
+    organization: Huawei
+    email: songyurong1@huawei.com
+  -
+    fullname: Lun Li
+    organization: Huawei
+    email: lilun20@huawei.com
+  -
+    fullname: Donghui Wang
+    organization: Huawei
+    email: wangdonghui124@huawei.com
+  -
+    fullname: Fei Liu
+    organization: Huawei
+    email: liufei19@huawei.com
+
 normative:
 
 informative:
@@ -270,4 +288,6 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+The authors would like to thank the following individuals for their
+contributions to this specification:
+Yurong Song, Lun Li, Donghui Wang, Fei Liu
