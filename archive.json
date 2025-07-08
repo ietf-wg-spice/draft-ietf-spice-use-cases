@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-29T01:25:52.023583+00:00",
+  "timestamp": "2025-07-08T01:18:28.808872+00:00",
   "repo": "ietf-wg-spice/draft-ietf-spice-use-cases",
   "labels": [
     {
@@ -87,47 +87,63 @@
       "id": "I_kwDOMvKKis69kCwO",
       "title": "need security considerations",
       "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/6",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "brentzundel",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-06-26T20:34:19Z",
-      "updatedAt": "2025-06-26T20:34:19Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2025-07-07T18:34:08Z",
+      "closedAt": "2025-07-07T18:34:08Z",
+      "comments": [
+        {
+          "author": "brentzundel",
+          "authorAssociation": "COLLABORATOR",
+          "body": "PR #10 merged, closing",
+          "createdAt": "2025-07-07T18:34:08Z",
+          "updatedAt": "2025-07-07T18:34:08Z"
+        }
+      ]
     },
     {
       "number": 7,
       "id": "I_kwDOMvKKis69kC5D",
       "title": "need acknowledgements",
       "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/7",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "brentzundel",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-06-26T20:34:34Z",
-      "updatedAt": "2025-06-26T20:34:34Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2025-07-07T18:24:08Z",
+      "closedAt": "2025-07-07T18:24:08Z",
+      "comments": [
+        {
+          "author": "brentzundel",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Added some acknowledgements, closing",
+          "createdAt": "2025-07-07T18:24:08Z",
+          "updatedAt": "2025-07-07T18:24:08Z"
+        }
+      ]
     },
     {
       "number": 8,
       "id": "I_kwDOMvKKis69kFvc",
       "title": "Merge with Telecom Use Cases Draft",
       "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/issues/8",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "brentzundel",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "It has been requested that we merge https://datatracker.ietf.org/doc/draft-song-spice-telecom-usecases/ with this document, both by the document authors and the SPICE WG chairs.",
       "createdAt": "2025-06-26T20:38:27Z",
-      "updatedAt": "2025-06-26T20:40:12Z",
-      "closedAt": null,
+      "updatedAt": "2025-07-07T18:23:29Z",
+      "closedAt": "2025-07-07T18:23:29Z",
       "comments": [
         {
           "author": "hlflanagan",
@@ -135,6 +151,13 @@
           "body": "Good idea.",
           "createdAt": "2025-06-26T20:40:12Z",
           "updatedAt": "2025-06-26T20:40:12Z"
+        },
+        {
+          "author": "brentzundel",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Merged #9, closing",
+          "createdAt": "2025-07-07T18:23:29Z",
+          "updatedAt": "2025-07-07T18:23:29Z"
         }
       ]
     }
@@ -255,26 +278,168 @@
     {
       "number": 9,
       "id": "PR_kwDOMvKKis6cTreK",
-      "title": "Attempt to add 2.1.2. Introduce Attributes into Telecom Network",
+      "title": "Add Telecom use cases",
       "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/9",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "brentzundel",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "This is an attempt to add \"2.1.2.  Introduce Attributes into Telecom Network\" from https://www.ietf.org/archive/id/draft-song-spice-telecom-usecases-00.txt into this document.\r\n",
       "createdAt": "2025-06-26T21:35:28Z",
-      "updatedAt": "2025-06-26T21:35:28Z",
+      "updatedAt": "2025-07-07T17:59:32Z",
       "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
       "baseRefName": "main",
       "baseRefOid": "310e6b728ef62f4e08ef34f06a7cecdb4123c080",
       "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
       "headRefName": "telecom-sharing",
-      "headRefOid": "d143c1f985d03ea75f10e6f1db6936a04c4050bd",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "6d60230347a6be08d0e05f34b90b714344044387",
+      "closedAt": "2025-07-07T17:59:32Z",
+      "mergedAt": "2025-07-07T17:59:32Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "c16f53490e4c9d35ec622024f98156a3c7b1582e"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOMvKKis6dzu2C",
+      "title": "no security considerations",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/10",
+      "state": "MERGED",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-07T18:33:17Z",
+      "updatedAt": "2025-07-07T18:33:50Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "c16f53490e4c9d35ec622024f98156a3c7b1582e",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "issue-6",
+      "headRefOid": "0162504a92176a27dca791f8824df1db4bab01b6",
+      "closedAt": "2025-07-07T18:33:50Z",
+      "mergedAt": "2025-07-07T18:33:50Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "b470c9205f794692bd6aec3dddcee5f34abcfb1f"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOMvKKis6dz5gD",
+      "title": "restore document history",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/11",
+      "state": "MERGED",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-07T18:56:00Z",
+      "updatedAt": "2025-07-07T18:56:33Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "b470c9205f794692bd6aec3dddcee5f34abcfb1f",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "doc-hist",
+      "headRefOid": "2acc84435a4683051ee7a3a6cdf54bc26599ebfb",
+      "closedAt": "2025-07-07T18:56:33Z",
+      "mergedAt": "2025-07-07T18:56:33Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "2915aea0d96e2ebfd14d0502ee085b6cb28355e9"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOMvKKis6dz72K",
+      "title": "changes for 02",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/12",
+      "state": "MERGED",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-07T19:00:34Z",
+      "updatedAt": "2025-07-07T19:01:04Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "2915aea0d96e2ebfd14d0502ee085b6cb28355e9",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "doc-hist",
+      "headRefOid": "6441d685d1e46dd25963e3bb2f34dc378739c8cf",
+      "closedAt": "2025-07-07T19:01:04Z",
+      "mergedAt": "2025-07-07T19:01:04Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "81285a13c593d037b99d685c39b51ef0398a58e5"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOMvKKis6d0Cjj",
+      "title": "fix venue",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/13",
+      "state": "MERGED",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-07T19:14:30Z",
+      "updatedAt": "2025-07-07T19:16:43Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "81285a13c593d037b99d685c39b51ef0398a58e5",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "venue",
+      "headRefOid": "193d31090be22124e1cd4e5b2afa5c2b60596c70",
+      "closedAt": "2025-07-07T19:16:43Z",
+      "mergedAt": "2025-07-07T19:16:43Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "211d0f743959922f1a70f20511c89847eced5ec9"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOMvKKis6d0Ko7",
+      "title": "fix document history formatting",
+      "url": "https://github.com/ietf-wg-spice/draft-ietf-spice-use-cases/pull/14",
+      "state": "MERGED",
+      "author": "brentzundel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-07T19:32:18Z",
+      "updatedAt": "2025-07-07T19:33:15Z",
+      "baseRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "baseRefName": "main",
+      "baseRefOid": "c3ac25d860001d8730323bd7170ee2b91c2840c4",
+      "headRepository": "ietf-wg-spice/draft-ietf-spice-use-cases",
+      "headRefName": "doc-hist",
+      "headRefOid": "25ae13de02bbe685720d8e1155c6e72c0c024493",
+      "closedAt": "2025-07-07T19:33:15Z",
+      "mergedAt": "2025-07-07T19:33:14Z",
+      "mergedBy": "brentzundel",
+      "mergeCommit": {
+        "oid": "a498e3e7c735159a2edfe2548f898c4cbf83620f"
+      },
       "comments": [],
       "reviews": []
     }
