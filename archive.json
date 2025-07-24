@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-08T01:18:28.808872+00:00",
+  "timestamp": "2025-07-24T01:22:27.393596+00:00",
   "repo": "ietf-wg-spice/draft-ietf-spice-use-cases",
   "labels": [
     {
@@ -78,9 +78,17 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-06-26T20:34:05Z",
-      "updatedAt": "2025-06-26T20:34:05Z",
+      "updatedAt": "2025-07-22T07:43:57Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "timcappalli",
+          "authorAssociation": "NONE",
+          "body": "Jotting down what I said at IETF 123. I think it's important to define \"credential provider\" and relationship to general terms like \"wallet\", \"digital wallet\", and \"identity wallet\".\n\nSuggest splitting out the \"Roles\" from 5.1 and creating a new section 6 that talks about issuer, holder, verifier, and credential providers.\n\nHappy to work on this.",
+          "createdAt": "2025-07-22T07:43:57Z",
+          "updatedAt": "2025-07-22T07:43:57Z"
+        }
+      ]
     },
     {
       "number": 6,
