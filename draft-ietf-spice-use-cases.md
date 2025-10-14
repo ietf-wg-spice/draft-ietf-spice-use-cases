@@ -268,7 +268,23 @@ call by presenting the attributes endorsed by the operator or OTT providers.
 
 ## Embedding Credentials
 
-TODO embedding credentials use case
+Embedding credentials within other data formats allows for the direct
+integration of verifiable attestations into the content itself. This binds the
+proof of provenance directly to the data object, allowing the the credential to
+travel with the content. This makes the data self-authenticating. Common data
+formats for embedding include PDFs, images, media files, and other structured
+documents.
+
+Common use cases include:
+
+- A news organization embedding a credential within a PDF of a news article that
+  attests to its authenticity.
+- A photographer's digital camera embedding a credential in each digital image
+  to show provenance.
+- Scientific researchers embedding credentials in a research paper to attest to
+  the integrity of the data and the validity of the research findings.
+- Manufacturing companies embedding credentials in digital twins or 3D models of
+  physical parts to prove their authenticity and supply chain provenance.
 
 ## Digital Wallets
 
