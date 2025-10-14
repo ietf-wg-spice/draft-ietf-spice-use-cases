@@ -72,9 +72,10 @@ issuer-holder-verifier model across various work at IETF, ISO, W3C, and other
 SDOs. This need particularly arises in use cases for verifiable credentials that
 do not involve human-in-the-loop interactions, require strong identifiers for
 business entities, call for the benefits of CBOR encoding, or leverage the
-cryptographic agility properties of COSE. This document covers multiple use
-cases for verifiable credentials that help inform both the required architecture
-and components, as well as to frame needs for clearly defined message formats or supporting mechanisms.
+cryptographic agility properties of JOSE or COSE. This document covers multiple
+use cases for verifiable credentials that help inform both the required
+architecture and components, as well as to frame needs for clearly defined
+message formats or supporting mechanisms.
 
 # Conventions and Definitions
 
@@ -84,31 +85,25 @@ and components, as well as to frame needs for clearly defined message formats or
 
 Within SPICE there are a few common patterns that continually arise:
 
-- Selective disclosure with CBOR based verifiable credentials
-- Cryptographic agility support via COSE, including support for PQC, and
+- Selective disclosure with verifiable credentials
+- Cryptographic agility support via JOSE or COSE, including support for PQC, and
   to permit use of the same signature algorithms with both selective
   disclosure as well as fully disclosed credentials
 - Strong and long-lived identities that may be correlated with public key
   material for verification and permit binding to DNS or existing x509
   certificates, as well as providing ready access to public keys for
-  verification utilizing HTTP
+  verification.
 
 # SPICE Use Cases
 
 There are several expanding use cases and common patterns that motivate
 the working group and broader community, including:
 
-- Microcredentials, particularly in education
-- Digitization of physical supply chain documents in multiple
-  jurisdictions:
-  - CBOR credentials
-  - High-volume system-to-system exchange of credentials
-  - Regulatory data and business-driven information
-- Credentials related to IoT, Control Systems, and Critical Infrastructure
-- Credentials related to authenticity and provenance, especially of
-  digital media
-- Offline exchange (in person) of credentials that may have been
-  internet issued
+- Microcredentials in education
+- Physical supply chain credentials
+- IoT, control systems, and critical infrastructure
+- Credentials related to authenticity and provenance
+- Offline exchange of credentials
 - Attribute sharing for trusted telephone interactions
 - Mobile driving licenses
 - Embedding credentials in other data formats
@@ -282,9 +277,25 @@ The primary use case envisioned is defined as follows:
 communication channel supported by both parties. Data resides on the mobile
 device and it arrives intact with proof that there was no tampering.
 
-## Embedding Credentials
+## Embedding Credentials in Other Data Formats
 
-TODO embedding credentials use case
+Embedding credentials within other data formats allows for the direct
+integration of verifiable attestations into the content itself. This binds the
+proof of provenance directly to the data object, allowing the the credential to
+travel with the content. This makes the data self-authenticating. Common data
+formats for embedding include PDFs, images, media files, and other structured
+documents.
+
+Common use cases include:
+
+- A news organization embedding a credential within a PDF of a news article that
+  attests to its authenticity.
+- A photographer's digital camera embedding a credential in each digital image
+  to show provenance.
+- Scientific researchers embedding credentials in a research paper to attest to
+  the integrity of the data and the validity of the research findings.
+- Manufacturing companies embedding credentials in digital twins or 3D models of
+  physical parts to prove their authenticity and supply chain provenance.
 
 ## Digital Wallets
 
