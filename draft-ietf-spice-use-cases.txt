@@ -5,7 +5,7 @@
 Secure Patterns for Internet CrEdentials                       B. Zundel
 Internet-Draft                                                M. Prorock
 Intended status: Informational                              Tradeverifyd
-Expires: 8 January 2026                                      7 July 2025
+Expires: 17 April 2026                                   14 October 2025
 
 
                           Use Cases for SPICE
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 January 2026.
+   This Internet-Draft will expire on 17 April 2026.
 
 Copyright Notice
 
@@ -359,7 +359,28 @@ Table of Contents
 
 5.8.  Embedding Credentials
 
-   TODO embedding credentials use case
+   Embedding credentials within other data formats allows for the direct
+   integration of verifiable attestations into the content itself.  This
+   binds the proof of provenance directly to the data object, allowing
+   the the credential to travel with the content.  This makes the data
+   self-authenticating.  Common data formats for embedding include PDFs,
+   images, media files, and other structured documents.
+
+   Common use cases include:
+
+   *  A news organization embedding a credential within a PDF of a news
+      article that attests to its authenticity.
+
+   *  A photographer's digital camera embedding a credential in each
+      digital image to show provenance.
+
+   *  Scientific researchers embedding credentials in a research paper
+      to attest to the integrity of the data and the validity of the
+      research findings.
+
+   *  Manufacturing companies embedding credentials in digital twins or
+      3D models of physical parts to prove their authenticity and supply
+      chain provenance.
 
 5.9.  Digital Wallets
 
