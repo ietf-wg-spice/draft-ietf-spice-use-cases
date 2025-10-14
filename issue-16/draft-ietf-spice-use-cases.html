@@ -1196,7 +1196,7 @@ most in need of specification or detailed documentation.<a href="#section-abstra
                 <p id="section-toc.1-1.5.2.8.1"><a href="#section-5.8" class="auto internal xref">5.8</a>.  <a href="#name-mobile-driving-licenses" class="internal xref">Mobile Driving Licenses</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.9">
-                <p id="section-toc.1-1.5.2.9.1"><a href="#section-5.9" class="auto internal xref">5.9</a>.  <a href="#name-embedding-credentials" class="internal xref">Embedding Credentials</a></p>
+                <p id="section-toc.1-1.5.2.9.1"><a href="#section-5.9" class="auto internal xref">5.9</a>.  <a href="#name-embedding-credentials-in-ot" class="internal xref">Embedding Credentials in Other Data Formats</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.10">
                 <p id="section-toc.1-1.5.2.10.1"><a href="#section-5.10" class="auto internal xref">5.10</a>. <a href="#name-digital-wallets" class="internal xref">Digital Wallets</a></p>
@@ -1238,9 +1238,10 @@ issuer-holder-verifier model across various work at IETF, ISO, W3C, and other
 SDOs. This need particularly arises in use cases for verifiable credentials that
 do not involve human-in-the-loop interactions, require strong identifiers for
 business entities, call for the benefits of CBOR encoding, or leverage the
-cryptographic agility properties of COSE. This document covers multiple use
-cases for verifiable credentials that help inform both the required architecture
-and components, as well as to frame needs for clearly defined message formats or supporting mechanisms.<a href="#section-1-1" class="pilcrow">¶</a></p>
+cryptographic agility properties of JOSE or COSE. This document covers multiple
+use cases for verifiable credentials that help inform both the required
+architecture and components, as well as to frame needs for clearly defined
+message formats or supporting mechanisms.<a href="#section-1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="conventions-and-definitions">
@@ -1262,10 +1263,10 @@ appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶<
 <p id="section-3-1">Within SPICE there are a few common patterns that continually arise:<a href="#section-3-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-3-2.1">
-          <p id="section-3-2.1.1">Selective disclosure with CBOR based verifiable credentials<a href="#section-3-2.1.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.1.1">Selective disclosure with verifiable credentials<a href="#section-3-2.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-3-2.2">
-          <p id="section-3-2.2.1">Cryptographic agility support via COSE, including support for PQC, and
+          <p id="section-3-2.2.1">Cryptographic agility support via JOSE or COSE, including support for PQC, and
 to permit use of the same signature algorithms with both selective
 disclosure as well as fully disclosed credentials<a href="#section-3-2.2.1" class="pilcrow">¶</a></p>
 </li>
@@ -1273,7 +1274,7 @@ disclosure as well as fully disclosed credentials<a href="#section-3-2.2.1" clas
           <p id="section-3-2.3.1">Strong and long-lived identities that may be correlated with public key
 material for verification and permit binding to DNS or existing x509
 certificates, as well as providing ready access to public keys for
-verification utilizing HTTP<a href="#section-3-2.3.1" class="pilcrow">¶</a></p>
+verification.<a href="#section-3-2.3.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 </section>
@@ -1287,33 +1288,19 @@ verification utilizing HTTP<a href="#section-3-2.3.1" class="pilcrow">¶</a></p>
 the working group and broader community, including:<a href="#section-4-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-4-2.1">
-          <p id="section-4-2.1.1">Microcredentials, particularly in education<a href="#section-4-2.1.1" class="pilcrow">¶</a></p>
+          <p id="section-4-2.1.1">Microcredentials in education<a href="#section-4-2.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-4-2.2">
-          <p id="section-4-2.2.1">Digitization of physical supply chain documents in multiple
-jurisdictions:<a href="#section-4-2.2.1" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-4-2.2.2.1">
-              <p id="section-4-2.2.2.1.1">CBOR credentials<a href="#section-4-2.2.2.1.1" class="pilcrow">¶</a></p>
-</li>
-            <li class="normal" id="section-4-2.2.2.2">
-              <p id="section-4-2.2.2.2.1">High-volume system-to-system exchange of credentials<a href="#section-4-2.2.2.2.1" class="pilcrow">¶</a></p>
-</li>
-            <li class="normal" id="section-4-2.2.2.3">
-              <p id="section-4-2.2.2.3.1">Regulatory data and business-driven information<a href="#section-4-2.2.2.3.1" class="pilcrow">¶</a></p>
-</li>
-          </ul>
+          <p id="section-4-2.2.1">Physical supply chain credentials<a href="#section-4-2.2.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-4-2.3">
-          <p id="section-4-2.3.1">Credentials related to IoT, Control Systems, and Critical Infrastructure<a href="#section-4-2.3.1" class="pilcrow">¶</a></p>
+          <p id="section-4-2.3.1">IoT, control systems, and critical infrastructure<a href="#section-4-2.3.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-4-2.4">
-          <p id="section-4-2.4.1">Credentials related to authenticity and provenance, especially of
-digital media<a href="#section-4-2.4.1" class="pilcrow">¶</a></p>
+          <p id="section-4-2.4.1">Credentials related to authenticity and provenance<a href="#section-4-2.4.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-4-2.5">
-          <p id="section-4-2.5.1">Offline exchange (in person) of credentials that may have been
-internet issued<a href="#section-4-2.5.1" class="pilcrow">¶</a></p>
+          <p id="section-4-2.5.1">Offline exchange of credentials<a href="#section-4-2.5.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-4-2.6">
           <p id="section-4-2.6.1">Attribute sharing for trusted telephone interactions<a href="#section-4-2.6.1" class="pilcrow">¶</a></p>
@@ -1603,12 +1590,36 @@ device and it arrives intact with proof that there was no tampering.<a href="#se
         </ul>
 </section>
 </div>
-<div id="embedding-credentials">
+<div id="embedding-credentials-in-other-data-formats">
 <section id="section-5.9">
-        <h3 id="name-embedding-credentials">
-<a href="#section-5.9" class="section-number selfRef">5.9. </a><a href="#name-embedding-credentials" class="section-name selfRef">Embedding Credentials</a>
+        <h3 id="name-embedding-credentials-in-ot">
+<a href="#section-5.9" class="section-number selfRef">5.9. </a><a href="#name-embedding-credentials-in-ot" class="section-name selfRef">Embedding Credentials in Other Data Formats</a>
         </h3>
-<p id="section-5.9-1">TODO embedding credentials use case<a href="#section-5.9-1" class="pilcrow">¶</a></p>
+<p id="section-5.9-1">Embedding credentials within other data formats allows for the direct
+integration of verifiable attestations into the content itself. This binds the
+proof of provenance directly to the data object, allowing the the credential to
+travel with the content. This makes the data self-authenticating. Common data
+formats for embedding include PDFs, images, media files, and other structured
+documents.<a href="#section-5.9-1" class="pilcrow">¶</a></p>
+<p id="section-5.9-2">Common use cases include:<a href="#section-5.9-2" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-5.9-3.1">
+            <p id="section-5.9-3.1.1">A news organization embedding a credential within a PDF of a news article that
+attests to its authenticity.<a href="#section-5.9-3.1.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.9-3.2">
+            <p id="section-5.9-3.2.1">A photographer's digital camera embedding a credential in each digital image
+to show provenance.<a href="#section-5.9-3.2.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.9-3.3">
+            <p id="section-5.9-3.3.1">Scientific researchers embedding credentials in a research paper to attest to
+the integrity of the data and the validity of the research findings.<a href="#section-5.9-3.3.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-5.9-3.4">
+            <p id="section-5.9-3.4.1">Manufacturing companies embedding credentials in digital twins or 3D models of
+physical parts to prove their authenticity and supply chain provenance.<a href="#section-5.9-3.4.1" class="pilcrow">¶</a></p>
+</li>
+        </ul>
 </section>
 </div>
 <div id="digital-wallets">
