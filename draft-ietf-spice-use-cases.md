@@ -268,8 +268,6 @@ call by presenting the attributes endorsed by the operator or OTT providers.
 
 ## Embedding Credentials
 
-### Embedding Credentials
-
 Embedding credentials within other data formats allows for the direct
 integration of verifiable attestations into the content itself. This binds the
 proof of provenance directly to the data object, allowing the the credential to
