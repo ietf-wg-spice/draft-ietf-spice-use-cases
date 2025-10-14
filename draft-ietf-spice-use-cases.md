@@ -110,6 +110,7 @@ the working group and broader community, including:
 - Offline exchange (in person) of credentials that may have been
   internet issued
 - Attribute sharing for trusted telephone interactions
+- Mobile driving licenses
 - Embedding credentials in other data formats
 - Digital Wallet Initiatives
 
@@ -265,6 +266,21 @@ attributes (e.g. , “subscriber of a legal operator”).
 call by presenting the attributes endorsed by the operator or OTT providers.
 - Operator or OTT provider service provisioning by verifying user attributes
 (e.g., subscription status)
+
+## Mobile Driving Licenses
+
+The primary purposes of a driving licence are to confirm identity and convey
+driving privileges. In order to be trustworthy, issuers take duty to do identity
+proofing seriously. The trusted identity attributes (e.g., photo, address, date
+of birth/age, full name) confirmed by these issuers are of value to
+establishments that need to verify a customer’s age, identity, current contact
+information, or driving privileges.
+
+The primary use case envisioned is defined as follows:
+
+- Holders can transmit sets of data attributes to a verifier over any
+communication channel supported by both parties. Data resides on the mobile
+device and it arrives intact with proof that there was no tampering.
 
 ## Embedding Credentials
 
