@@ -84,7 +84,6 @@ Table of Contents
      5.6.  Offline exchange of credentials
      5.7.  Attribute Sharing for Trusted Telephone Interactions
      5.8.  Embedding Credentials
-       5.8.1.  Embedding Credentials
      5.9.  Digital Wallets
    6.  Security Considerations
    7.  IANA Considerations
@@ -359,8 +358,6 @@ Table of Contents
       attributes (e.g., subscription status)
 
 5.8.  Embedding Credentials
-
-5.8.1.  Embedding Credentials
 
    Embedding credentials within other data formats allows for the direct
    integration of verifiable attestations into the content itself.  This
