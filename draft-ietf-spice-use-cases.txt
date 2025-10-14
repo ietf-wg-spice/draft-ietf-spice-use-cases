@@ -83,7 +83,7 @@ Table of Contents
      5.5.  Credentials related to Authenticity and Provenance
      5.6.  Offline exchange of credentials
      5.7.  Attribute Sharing for Trusted Telephone Interactions
-     5.8.  Embedding Credentials
+     5.8.  Embedding Credentials in Other Data Formats
      5.9.  Digital Wallets
    6.  Security Considerations
    7.  IANA Considerations
@@ -101,10 +101,10 @@ Table of Contents
    for verifiable credentials that do not involve human-in-the-loop
    interactions, require strong identifiers for business entities, call
    for the benefits of CBOR encoding, or leverage the cryptographic
-   agility properties of COSE.  This document covers multiple use cases
-   for verifiable credentials that help inform both the required
-   architecture and components, as well as to frame needs for clearly
-   defined message formats or supporting mechanisms.
+   agility properties of JOSE or COSE.  This document covers multiple
+   use cases for verifiable credentials that help inform both the
+   required architecture and components, as well as to frame needs for
+   clearly defined message formats or supporting mechanisms.
 
 2.  Conventions and Definitions
 
@@ -118,41 +118,31 @@ Table of Contents
 
    Within SPICE there are a few common patterns that continually arise:
 
-   *  Selective disclosure with CBOR based verifiable credentials
+   *  Selective disclosure with verifiable credentials
 
-   *  Cryptographic agility support via COSE, including support for PQC,
-      and to permit use of the same signature algorithms with both
-      selective disclosure as well as fully disclosed credentials
+   *  Cryptographic agility support via JOSE or COSE, including support
+      for PQC, and to permit use of the same signature algorithms with
+      both selective disclosure as well as fully disclosed credentials
 
    *  Strong and long-lived identities that may be correlated with
       public key material for verification and permit binding to DNS or
       existing x509 certificates, as well as providing ready access to
-      public keys for verification utilizing HTTP
+      public keys for verification.
 
 4.  SPICE Use Cases
 
    There are several expanding use cases and common patterns that
    motivate the working group and broader community, including:
 
-   *  Microcredentials, particularly in education
+   *  Microcredentials in education
 
-   *  Digitization of physical supply chain documents in multiple
-      jurisdictions:
+   *  Physical supply chain credentials
 
-      -  CBOR credentials
+   *  IoT, control systems, and critical infrastructure
 
-      -  High-volume system-to-system exchange of credentials
+   *  Credentials related to authenticity and provenance
 
-      -  Regulatory data and business-driven information
-
-   *  Credentials related to IoT, Control Systems, and Critical
-      Infrastructure
-
-   *  Credentials related to authenticity and provenance, especially of
-      digital media
-
-   *  Offline exchange (in person) of credentials that may have been
-      internet issued
+   *  Offline exchange of credentials
 
    *  Attribute sharing for trusted telephone interactions
 
@@ -357,7 +347,7 @@ Table of Contents
    *  Operator or OTT provider service provisioning by verifying user
       attributes (e.g., subscription status)
 
-5.8.  Embedding Credentials
+5.8.  Embedding Credentials in Other Data Formats
 
    Embedding credentials within other data formats allows for the direct
    integration of verifiable attestations into the content itself.  This
