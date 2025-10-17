@@ -80,12 +80,13 @@ Table of Contents
      5.2.  Microcredentials in Education
      5.3.  Physical Supply Chain Credentials
      5.4.  IoT, Control Systems, and Critical Infrastructure
-           Credentials
+            Credentials
      5.5.  Credentials related to Authenticity and Provenance
      5.6.  Offline exchange of credentials
      5.7.  Attribute Sharing for Trusted Telephone Interactions
-     5.8.  Embedding Credentials in Other Data Formats
-     5.9.  Digital Wallets
+     5.8.  Mobile Driving Licenses
+     5.9.  Embedding Credentials in Other Data Formats
+     5.10. Digital Wallets
    6.  Security Considerations
    7.  IANA Considerations
    8.  Normative References
@@ -146,6 +147,8 @@ Table of Contents
    *  Offline exchange of credentials
 
    *  Attribute sharing for trusted telephone interactions
+
+   *  Mobile driving licenses
 
    *  Embedding credentials in other data formats
 
@@ -348,7 +351,24 @@ Table of Contents
    *  Operator or OTT provider service provisioning by verifying user
       attributes (e.g., subscription status)
 
-5.8.  Embedding Credentials in Other Data Formats
+5.8.  Mobile Driving Licenses
+
+   The primary purposes of a driving licence are to confirm identity and
+   convey driving privileges.  In order to be trustworthy, issuers take
+   duty to do identity proofing seriously.  The trusted identity
+   attributes (e.g., photo, address, date of birth/age, full name)
+   confirmed by these issuers are of value to establishments that need
+   to verify a customer’s age, identity, current contact information, or
+   driving privileges.
+
+   The primary use case envisioned is defined as follows:
+
+   *  Holders can transmit sets of data attributes to a verifier over
+      any communication channel supported by both parties.  Data resides
+      on the mobile device and it arrives intact with proof that there
+      was no tampering.
+
+5.9.  Embedding Credentials in Other Data Formats
 
    Embedding credentials within other data formats allows for the direct
    integration of verifiable attestations into the content itself.  This
@@ -373,7 +393,7 @@ Table of Contents
       3D models of physical parts to prove their authenticity and supply
       chain provenance.
 
-5.9.  Digital Wallets
+5.10.  Digital Wallets
 
    TODO digital wallet use case
 
