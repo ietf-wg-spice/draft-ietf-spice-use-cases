@@ -23,7 +23,6 @@ venue:
 author:
  -
     fullname: "Brent Zundel"
-    organization: "Tradeverifyd"
     email: brent.zundel@gmail.com
 
  -
