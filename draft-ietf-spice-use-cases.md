@@ -30,6 +30,14 @@ author:
     organization: "Tradeverifyd"
     email: "mprorock@tradeverifyd.com"
 
+ -
+    fullname: Michael B. Jones
+    ins: M.B. Jones
+    organization: Self-Issued Consulting
+    email: michael_b_jones@hotmail.com
+    uri: https://self-issued.info/
+    country: United States
+
 
 contributor:
   -
@@ -320,6 +328,12 @@ Yurong Song, Lun Li, Donghui Wang, Fei Liu
 
 # Document History
 {: numbered="false"}
+
+-03
+
+* Added Mobile Driving Licenses use case.
+* Described Embedding Credentials in Other Data Formats.
+* Added Michael B. Jones as an author.
 
 -02
 
