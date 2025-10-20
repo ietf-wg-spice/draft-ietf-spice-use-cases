@@ -5,8 +5,10 @@
 Secure Patterns for Internet CrEdentials                       B. Zundel
 Internet-Draft                                                          
 Intended status: Informational                                M. Prorock
-Expires: 20 April 2026                                      Tradeverifyd
-                                                         17 October 2025
+Expires: 23 April 2026                                      Tradeverifyd
+                                                             M. B. Jones
+                                                  Self-Issued Consulting
+                                                         20 October 2025
 
 
                           Use Cases for SPICE
@@ -53,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 April 2026.
+   This Internet-Draft will expire on 23 April 2026.
 
 Copyright Notice
 
@@ -424,6 +426,14 @@ Acknowledgments
 
 Document History
 
+   -03
+
+   *  Added Mobile Driving Licenses use case.
+
+   *  Described Embedding Credentials in Other Data Formats.
+
+   *  Added Michael B.  Jones as an author.
+
    -02
 
    *  Added telecom use case
@@ -479,3 +489,10 @@ Authors' Addresses
    Michael Prorock
    Tradeverifyd
    Email: mprorock@tradeverifyd.com
+
+
+   Michael B. Jones
+   Self-Issued Consulting
+   United States
+   Email: michael_b_jones@hotmail.com
+   URI:   https://self-issued.info/
