@@ -324,10 +324,19 @@ This document has no IANA actions.
 
 The authors would like to thank the following individuals for their
 contributions to this specification:
-Yurong Song, Lun Li, Donghui Wang, Fei Liu
+Lun Li,
+Fei Liu,
+Tony Nadalin,
+Yurong Song,
+and
+Donghui Wang.
 
 # Document History
 {: numbered="false"}
+
+-04
+
+* Added Tony Nadalin to Acknowledgements.
 
 -03
 
