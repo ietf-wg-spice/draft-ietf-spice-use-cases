@@ -5,10 +5,10 @@
 Secure Patterns for Internet CrEdentials                       B. Zundel
 Internet-Draft                                                          
 Intended status: Informational                                M. Prorock
-Expires: 23 April 2026                                      Tradeverifyd
+Expires: 9 May 2026                                         Tradeverifyd
                                                              M. B. Jones
                                                   Self-Issued Consulting
-                                                         20 October 2025
+                                                         5 November 2025
 
 
                           Use Cases for SPICE
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 April 2026.
+   This Internet-Draft will expire on 9 May 2026.
 
 Copyright Notice
 
@@ -421,10 +421,14 @@ Table of Contents
 Acknowledgments
 
    The authors would like to thank the following individuals for their
-   contributions to this specification: Yurong Song, Lun Li, Donghui
-   Wang, Fei Liu
+   contributions to this specification: Lun Li, Fei Liu, Tony Nadalin,
+   Yurong Song, and Donghui Wang.
 
 Document History
+
+   -04
+
+   *  Added Tony Nadalin to Acknowledgements.
 
    -03
 
